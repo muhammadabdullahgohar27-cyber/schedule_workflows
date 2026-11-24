@@ -1,0 +1,16 @@
+name: Abdullah
+
+
+on: 
+ push:
+   branches:
+     - main
+
+
+jobs:
+  version:
+   runs-on: ubuntu-latest
+   steps:
+     - name: abdullah
+       run: echo "Hello"
+     
